@@ -22,7 +22,7 @@ public class GrammarController {
         Grammar grammar;
 
         try{
-             grammar = readGrammarFromFile(filenameJson);
+            grammar = readGrammarFromFile(filenameJson);
         } catch (IOException e){
             log.error("Error in read file action: {}", e.getMessage());
             return null;

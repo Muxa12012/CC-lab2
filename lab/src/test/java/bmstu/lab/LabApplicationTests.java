@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-@Slf4j
+c
 @SpringBootTest
 @RunWith(value = Parameterized.class)
 class LabApplicationTests {
